@@ -38,6 +38,12 @@ This repository implements a production-style product detail page (PDP) for a pr
 - `src/styles` — global SCSS styles
 - `src/types` — TypeScript type definitions
 
+## Screenshots of working project
+
+<img width="1920" height="3250" alt="Image" src="https://github.com/user-attachments/assets/0c216537-b704-4965-a751-73ebfe9a3504" />
+
+<img width="1920" height="3107" alt="Image" src="https://github.com/user-attachments/assets/83b40b4f-9f4a-42de-b496-e5d712d5ee4e" />
+
 ## Notes
 
 - Cart data is saved to localStorage under `pdp-cart-state-v1`
