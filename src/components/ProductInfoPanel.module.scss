@@ -1,0 +1,171 @@
+.panel {
+  display: grid;
+  gap: 18px;
+  background: var(--surface);
+  border-radius: 28px;
+  padding: 28px;
+}
+
+.headingRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.brand {
+  margin: 0;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.85rem;
+}
+
+.priceGroup {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.oldPrice {
+  color: var(--text-muted);
+  text-decoration: line-through;
+}
+
+.salePrice {
+  color: var(--text-primary);
+  font-size: 1.75rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+
+.section {
+  display: grid;
+  gap: 12px;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.swatchRow {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.swatch {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.selectedSwatch {
+  border-color: var(--accent);
+}
+
+.sizeGrid {
+  display: grid;
+  gap: 12px;
+}
+
+.sizeButton {
+  display: grid;
+  width: 100%;
+  gap: 6px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid var(--surface-dark);
+  background: var(--surface-light);
+  color: var(--text-primary);
+  text-align: left;
+  cursor: pointer;
+}
+
+.sizeButton small {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.activeSize {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(47, 111, 73, 0.18);
+}
+
+.soldOut {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.quantityGroup {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--surface-dark);
+  border-radius: 14px;
+  overflow: hidden;
+  width: max-content;
+}
+
+.quantityGroup button {
+  border: none;
+  background: var(--surface-light);
+  width: 46px;
+  height: 46px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.quantityGroup input {
+  width: 60px;
+  border: none;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.addButton {
+  width: 100%;
+  border: none;
+  padding: 18px 20px;
+  border-radius: 16px;
+  background: var(--accent);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.lowStock {
+  margin: 0;
+  color: #b85c00;
+  font-size: 0.95rem;
+}
+
+.addButton:disabled {
+  background: var(--surface-dark);
+  cursor: not-allowed;
+}
+
+.delivery {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.toast {
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: 14px;
+  background: rgba(47, 111, 73, 0.12);
+  color: var(--accent);
+  font-weight: 600;
+}
